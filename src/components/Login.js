@@ -41,7 +41,7 @@ const Login = () => {
         setToken(token);
         history.push('/');
       } else {
-        setError('Login failed. Please check your credentials.');
+        setErrors('Login failed. Please check your credentials.');
       }
     } catch (error) {
       setErrors({ email: 'Error during login. Please try again later.', password: '' });
