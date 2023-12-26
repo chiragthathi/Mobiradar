@@ -1,0 +1,6 @@
+.shopping-cart-container {
+    position: fixed;
+    top:18px; /* Adjust top position as needed */
+    right: 55px; /* Adjust right position as needed */
+    z-index: 999; /* Set a higher z-index to ensure it appears above other elements */
+}
