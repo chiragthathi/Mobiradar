@@ -44,8 +44,9 @@ const Login = () => {
         setError('Login failed. Please check your credentials.');
       }
     } catch (error) {
-      setError('Error during login. Please try again later.');
+      setErrors({ email: 'Error during login. Please try again later.', password: '' });
     }
+    
   };
 
   return (
